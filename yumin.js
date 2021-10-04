@@ -1,4 +1,9 @@
-function sum(a, b) {
-  const sum = a + b;
+// 선언
+function sayHello(nameOfPerson, age) {
+  console.log("Hello my name is " + nameOfPerson + " and I'm " + age);
 }
-sum(2, 3);
+
+// 실행
+sayHello("nico", 10);
+sayHello("dal", 23);
+sayHello("lynn", 21);
